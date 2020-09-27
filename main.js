@@ -114,6 +114,14 @@ bot.on('message', message=>{
     }
 })
 
+bot.on('guildMemberRemove', member =>{
+
+    const channel = member.guild.channels.cache.find(channel.name === "goodbye")
+    if(!channel) return;
+
+    channel.send(`${member} has left the server`)
+});
+
 bot.on('guildMemberAdd', member =>{
 
     const channel = member.guild.channels.cache.find(channel => channel.name === "welcome")
