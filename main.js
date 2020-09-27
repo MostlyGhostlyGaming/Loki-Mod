@@ -124,7 +124,7 @@ bot.on('message', message=>{
             .setTitle('Loki Mod Help')
             .setDescription('Hi, Im Loki Mod! I was made as a moderation bot for people to use! you can find information for the bot with the .help command. thank you for chating with me!')
             .addField('General Information', 'Thank you for inviting Loki Mod! We hope you Enjoy The newest Moderation Bot! More Features to the bot will be added! here are some commands!: `.kick`,`.ban`,`.mute`,`.warn`,`.help`,`.invite`, `.poll` Hope you enjoy!')
-            .addField('Other Information', 'When The Loki Bort Is Offline, It Is Most Likely Being Worked On. So Just Expect The Loki Mod Bot To Be Worked On Because Me And The Owner Both Have Big Ideas For This Bot. Stay Safe Out There And Enjoy The Loki Mod Bot!')
+            .addField('Other Information', 'When The Loki Mod Bot Is Offline, It Is Most Likely Being Worked On. So Just Expect The Loki Mod Bot To Be Worked On Because Me And The Owner Both Have Big Ideas For This Bot. Stay Safe Out There And Enjoy The Loki Mod Bot!')
             .setColor('#00FFF2')        
             message.channel.send(embed);
         break;
