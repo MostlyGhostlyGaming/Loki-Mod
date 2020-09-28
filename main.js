@@ -80,7 +80,7 @@ bot.on('message', message=>{
             .setTitle('Loki Mod Invite Information')
             .setDescription('Hi, Im Loki Mod! I was made as a moderation bot for people to use! you can find information for the bot with the .help command. thank you for chating with me!')
             .addField('Invite To You Server', 'So do you want a moderation bot? if so, Your in luck! here is the invite to add it to your server: https://discord.com/api/oauth2/authorize?client_id=759048144108388442&permissions=8&scope=bot. Enjoy! :)')
-            .addField('Invite To The Help Server', 'are you having trouble with the Loki Mod Bot? If so please join the Loki support server here: https://discord.gg/AfcQdzQ. A admin or developer will be happy to help you! :)')
+            .addField('Invite To The Help Server', 'are you having trouble with the Loki Mod Bot? If so please join the Loki support server here: https://discord.gg/uHKC5c9. A admin or developer will be happy to help you! :)')
             .setColor('#00FFF2')
             
             message.channel.send(embed);
