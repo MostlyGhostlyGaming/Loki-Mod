@@ -5,7 +5,7 @@ const PREFIX = '.';
 
 bot.on('ready', () =>{
     console.log('Loki Mod Online');
-    bot.user.setActivity('Loki Support | .help');
+    bot.user.setActivity('Dank Chills | .help');
 })
 
 bot.on('message', message=>{
